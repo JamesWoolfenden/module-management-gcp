@@ -1,23 +1,7 @@
-repo = [{
-  name                 = "terraform-aws-aurora"
-  description          = "Basic Aurora module"
-  default_branch       = "master"
-  has_downloads        = true
-  has_issues           = true
-  has_projects         = true
-  has_wiki             = true
-  visibility           = "public"
-  vulnerability_alerts = true
-  topics = [
-    "aurora",
-    "aws",
-    "module",
-    "terraform",
-  ]
-  },
+repo = [
   {
-    name                 = "terraform-aws-athena"
-    description          = "Basic Athena module"
+    name                 = "terraform-gcp-network"
+    description          = "Basic Network module"
     default_branch       = "master"
     has_downloads        = true
     has_issues           = true
@@ -26,15 +10,16 @@ repo = [{
     visibility           = "public"
     vulnerability_alerts = true
     topics = [
-      "athena",
-      "aws",
+      "network",
+      "vpc",
+      "gcp",
       "module",
       "terraform",
     ]
   },
   {
-    name                 = "terraform-aws-appsync"
-    description          = "Basic appsync module"
+    name                 = "terraform-gcp-storage"
+    description          = "A basic terraform module example, which the example uses for a helm repo"
     default_branch       = "master"
     has_downloads        = true
     has_issues           = true
@@ -43,15 +28,16 @@ repo = [{
     visibility           = "public"
     vulnerability_alerts = true
     topics = [
-      "appsync",
-      "aws",
+      "helm-charts",
+      "storage",
+      "gcp",
       "module",
       "terraform",
     ]
   },
   {
-    name                 = "terraform-aws-activemq"
-    description          = "A basic module to provision ActiveMQ"
+    name                 = "terraform-gcp-staticip"
+    description          = "A simple Terraform module to build an instance a static public IP"
     default_branch       = "master"
     has_downloads        = true
     has_issues           = true
@@ -60,15 +46,16 @@ repo = [{
     visibility           = "public"
     vulnerability_alerts = true
     topics = [
-      "activemq",
-      "aws",
+      "static",
+      "storage",
+      "gcp",
       "module",
       "terraform",
     ]
   },
   {
-    name                 = "terraform-aws-ad"
-    description          = "A basic module to provision AD"
+    name                 = "terraform-gcp-bastion"
+    description          = "Bastion for GCP"
     default_branch       = "master"
     has_downloads        = true
     has_issues           = true
@@ -77,15 +64,16 @@ repo = [{
     visibility           = "public"
     vulnerability_alerts = true
     topics = [
-      "ad",
-      "aws",
+      "bastion",
+      "instance",
+      "gcp",
       "module",
       "terraform",
     ]
   },
   {
-    name                 = "terraform-aws-apigateway"
-    description          = "A basic module to provision apigateway"
+    name                 = "terraform-gcp-appengine"
+    description          = "Get your container running, simply."
     default_branch       = "master"
     has_downloads        = true
     has_issues           = true
@@ -94,15 +82,15 @@ repo = [{
     visibility           = "public"
     vulnerability_alerts = true
     topics = [
-      "apigateway",
-      "aws",
+      "appengine",
+      "gcp",
       "module",
       "terraform",
     ]
   },
   {
-    name                 = "terraform-aws-artifactory"
-    description          = "A basic module to provision artifactory"
+    name                 = "terraform-gcp-cloudfunction"
+    description          = "For your cloud functions to GCP"
     default_branch       = "master"
     has_downloads        = true
     has_issues           = true
@@ -111,18 +99,15 @@ repo = [{
     visibility           = "public"
     vulnerability_alerts = true
     topics = [
-      "artifactory",
-      "bitnami",
-      "aws",
-      "jfrog",
+      "cloudfunction",
+      "gcp",
       "module",
-      "oss",
       "terraform",
     ]
   },
   {
-    name                 = "terraform-aws-artifactory-ecs"
-    description          = "A basic module to provision artifactory"
+    name                 = "terraform-gcp-cloudsql"
+    description          = "A module to create a private database setup"
     default_branch       = "master"
     has_downloads        = true
     has_issues           = true
@@ -131,17 +116,15 @@ repo = [{
     visibility           = "public"
     vulnerability_alerts = true
     topics = [
-      "artifactory",
-      "ecs",
-      "aws",
-      "jfrog",
+      "sql",
+      "gcp",
       "module",
       "terraform",
     ]
   },
   {
-    name                 = "terraform-aws-artifactory-oss"
-    description          = "EC2 based solution for Artifactory OSS edition."
+    name                 = "terraform-gcp-googlecomputeinstance"
+    description          = "First step using GCP and Terraform"
     default_branch       = "master"
     has_downloads        = true
     has_issues           = true
@@ -150,17 +133,14 @@ repo = [{
     visibility           = "public"
     vulnerability_alerts = true
     topics = [
-      "artifactory",
-      "oss",
-      "aws",
-      "jfrog",
+      "gcp",
       "module",
       "terraform",
     ]
   },
   {
-    name                 = "terraform-aws-auto-bastion"
-    description          = "A bastion with SSH controlled by IAM"
+    name                 = "terraform-gcp-cluster"
+    description          = "Set up a GKE cluster connected as part of shared VPC"
     default_branch       = "master"
     has_downloads        = true
     has_issues           = true
@@ -169,15 +149,15 @@ repo = [{
     visibility           = "public"
     vulnerability_alerts = true
     topics = [
-      "auto-bastion",
-      "aws",
+      "gke",
+      "gcp",
       "module",
       "terraform",
     ]
   },
   {
-    name                 = "terraform-aws-batch"
-    description          = "A basic module to use aws batch"
+    name                 = "terraform-gcp-http-internal"
+    description          = "A basic terraform module example, which the example uses for a helm repo"
     default_branch       = "master"
     has_downloads        = true
     has_issues           = true
@@ -186,15 +166,16 @@ repo = [{
     visibility           = "public"
     vulnerability_alerts = true
     topics = [
-      "batch",
-      "aws",
+      "helm-charts",
+      "storage",
+      "gcp",
       "module",
       "terraform",
     ]
   },
   {
-    name                 = "terraform-aws-budget"
-    description          = "Creates budgets for AWS Usage"
+    name                 = "terraform-gcp-iam"
+    description          = "A basic terraform module example, which the example uses for a helm repo"
     default_branch       = "master"
     has_downloads        = true
     has_issues           = true
@@ -203,15 +184,16 @@ repo = [{
     visibility           = "public"
     vulnerability_alerts = true
     topics = [
-      "budget",
-      "aws",
+      "helm-charts",
+      "storage",
+      "gcp",
       "module",
       "terraform",
     ]
   },
   {
-    name                 = "terraform-aws-cassandra"
-    description          = "A project to set up a Cassandra cluster in AWS"
+    name                 = "terraform-gcp-service"
+    description          = "Creates a GCP service user"
     default_branch       = "master"
     has_downloads        = true
     has_issues           = true
@@ -220,15 +202,14 @@ repo = [{
     visibility           = "public"
     vulnerability_alerts = true
     topics = [
-      "cassandra",
-      "aws",
+      "gcp",
       "module",
       "terraform",
     ]
   },
   {
-    name                 = "terraform-aws-certificate-authority"
-    description          = "Basic Certificate Authority module"
+    name                 = "terraform-gcp-statebucket"
+    description          = "Contains a module to create a statebucket for use with Terraform"
     default_branch       = "master"
     has_downloads        = true
     has_issues           = true
@@ -237,15 +218,16 @@ repo = [{
     visibility           = "public"
     vulnerability_alerts = true
     topics = [
-      "certificate-authority",
-      "aws",
+      "bucket",
+      "state",
+      "gcp",
       "module",
       "terraform",
     ]
   },
   {
-    name                 = "terraform-aws-cloudfront"
-    description          = "A basic module to provision cloudfront"
+    name                 = "terraform-gcp-helmrepo"
+    description          = "A helm repository"
     default_branch       = "master"
     has_downloads        = true
     has_issues           = true
@@ -254,278 +236,9 @@ repo = [{
     visibility           = "public"
     vulnerability_alerts = true
     topics = [
-      "cloudfront",
-      "aws",
-      "module",
-      "terraform",
-    ]
-  },
-  {
-    name                 = "terraform-aws-cloudfront-compound"
-    description          = "A basic module to provision cloudfront"
-    default_branch       = "master"
-    has_downloads        = true
-    has_issues           = true
-    has_projects         = true
-    has_wiki             = true
-    visibility           = "public"
-    vulnerability_alerts = true
-    topics = [
-      "cloudfront-compound",
-      "aws",
-      "module",
-      "terraform",
-      "multiple-origins"
-    ]
-  },
-  {
-    name                 = "terraform-aws-cloudfront-s3"
-    description          = "For hosting static sites on S3, cloudfront is required to SSL terminate $$$."
-    default_branch       = "master"
-    has_downloads        = true
-    has_issues           = true
-    has_projects         = true
-    has_wiki             = true
-    visibility           = "public"
-    vulnerability_alerts = true
-    topics = [
-      "cloudfront",
-      "s3",
-      "aws",
-      "module",
-      "terraform",
-    ]
-  },
-  {
-    name                 = "terraform-aws-cloudtrail"
-    description          = "A basic cloudtrail setup"
-    default_branch       = "master"
-    has_downloads        = true
-    has_issues           = true
-    has_projects         = true
-    has_wiki             = true
-    visibility           = "public"
-    vulnerability_alerts = true
-    topics = [
-      "cloudtrail",
-      "aws",
-      "module",
-      "terraform",
-    ]
-  },
-  {
-    name                 = "terraform-aws-cloudwatch"
-    description          = "A basic module to provision artifactory"
-    default_branch       = "master"
-    has_downloads        = true
-    has_issues           = true
-    has_projects         = true
-    has_wiki             = true
-    visibility           = "public"
-    vulnerability_alerts = true
-    topics = [
-      "artifactory",
-      "oss",
-      "aws",
-      "module",
-      "terraform",
-    ]
-  },
-  {
-    name                 = "terraform-aws-cloudwatch-s3"
-    description          = "Stream Cloudwatch logs to s3"
-    default_branch       = "master"
-    has_downloads        = true
-    has_issues           = true
-    has_projects         = true
-    has_wiki             = true
-    visibility           = "public"
-    vulnerability_alerts = true
-    topics = [
-      "cloudwatch",
-      "s3",
-      "aws",
-      "module",
-      "terraform",
-    ]
-  },
-  {
-    name                 = "terraform-aws-codeartifact"
-    description          = "A Terraform module for making AWS Codeartifact"
-    default_branch       = "main"
-    has_downloads        = true
-    has_issues           = true
-    has_projects         = true
-    has_wiki             = true
-    visibility           = "public"
-    vulnerability_alerts = true
-    topics = [
-      "codeartifact",
-      "aws",
-      "module",
-      "terraform",
-    ]
-  },
-  {
-    name                 = "terraform-aws-codebuild"
-    description          = "A Terraform module for making AWS codebuilds"
-    default_branch       = "master"
-    has_downloads        = true
-    has_issues           = true
-    has_projects         = true
-    has_wiki             = true
-    visibility           = "public"
-    vulnerability_alerts = true
-    topics = [
-      "codebuild",
-      "aws",
-      "module",
-      "terraform",
-    ]
-  },
-  {
-    name                 = "terraform-aws-codebuild-container"
-    description          = "Terraform module to provision a container pipeline."
-    default_branch       = "master"
-    has_downloads        = true
-    has_issues           = true
-    has_projects         = true
-    has_wiki             = true
-    visibility           = "public"
-    vulnerability_alerts = true
-    topics = [
-      "codebuild",
-      "aws",
-      "module",
-      "terraform",
-      "codecommit",
-      "containers",
-      "docker",
-      "ecr",
-    ]
-  },
-  {
-    name                 = "terraform-aws-codecommit"
-    description          = "Contains the module, permissions and sample code to create a feature branching enabled repo."
-    default_branch       = "master"
-    has_downloads        = true
-    has_issues           = true
-    has_projects         = true
-    has_wiki             = true
-    visibility           = "public"
-    vulnerability_alerts = true
-    topics = [
-      "codebuild",
-      "aws",
-      "module",
-      "terraform",
-      "codecommit",
-      "feature-branching"
-    ]
-  },
-  {
-    name                 = "terraform-aws-codepipeline"
-    description          = "Codepipeline if you must."
-    default_branch       = "master"
-    has_downloads        = true
-    has_issues           = true
-    has_projects         = true
-    has_wiki             = true
-    visibility           = "public"
-    vulnerability_alerts = true
-    topics = [
-      "codebuild",
-      "aws",
-      "module",
-      "terraform",
-      "codecommit",
-      "codepipeline"
-    ]
-  },
-  {
-    name                 = "terraform-aws-cognito"
-    description          = "A Terraform module for making AWS codebuilds"
-    default_branch       = "master"
-    has_downloads        = true
-    has_issues           = true
-    has_projects         = true
-    has_wiki             = true
-    visibility           = "public"
-    vulnerability_alerts = true
-    topics = [
-      "codebuild",
-      "aws",
-      "module",
-      "terraform",
-    ]
-  },
-  {
-    name                 = "terraform-aws-config"
-    description          = "A Terraform module for making AWS codebuilds"
-    default_branch       = "master"
-    has_downloads        = true
-    has_issues           = true
-    has_projects         = true
-    has_wiki             = true
-    visibility           = "public"
-    vulnerability_alerts = true
-    topics = [
-      "codebuild",
-      "aws",
-      "module",
-      "terraform",
-    ]
-  },
-  {
-    name                 = "terraform-aws-confluent"
-    description          = "To Provision Confluent Kafka 4"
-    default_branch       = "master"
-    has_downloads        = true
-    has_issues           = true
-    has_projects         = true
-    has_wiki             = true
-    visibility           = "public"
-    vulnerability_alerts = true
-    topics = [
-      "codebuild",
-      "aws",
-      "module",
-      "terraform",
-      "confluent",
-      "kafka",
-    ]
-  },
-  {
-    name                 = "terraform-aws-crossaccountbucket"
-    description          = "A Terraform module for making AWS codebuilds"
-    default_branch       = "master"
-    has_downloads        = true
-    has_issues           = true
-    has_projects         = true
-    has_wiki             = true
-    visibility           = "public"
-    vulnerability_alerts = true
-    topics = [
-      "codebuild",
-      "aws",
-      "module",
-      "terraform",
-    ]
-  },
-  {
-    name                 = "terraform-aws-cross-account-role"
-    description          = "To set up a role that can be assumed"
-    default_branch       = "master"
-    has_downloads        = true
-    has_issues           = true
-    has_projects         = true
-    has_wiki             = true
-    visibility           = "public"
-    vulnerability_alerts = true
-    topics = [
-      "codebuild",
-      "iam",
-      "aws",
+      "helm-charts",
+      "repository",
+      "gcp",
       "module",
       "terraform",
     ]

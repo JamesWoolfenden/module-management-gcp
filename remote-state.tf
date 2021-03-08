@@ -3,7 +3,7 @@ terraform {
     organization = "Wolf"
 
     workspaces {
-      name = "module-management-aws"
+      name = "module-management-gcp"
     }
   }
 }

@@ -10,6 +10,7 @@ repo = [
     has_wiki             = true
     visibility           = "public"
     vulnerability_alerts = true
+    overwrite            = true
     topics = [
       "network",
       "vpc",
@@ -28,6 +29,7 @@ repo = [
     has_wiki             = true
     visibility           = "public"
     vulnerability_alerts = true
+    overwrite            = true
     topics = [
       "helm-charts",
       "storage",
@@ -46,6 +48,7 @@ repo = [
     has_wiki             = true
     visibility           = "public"
     vulnerability_alerts = true
+    overwrite            = true
     topics = [
       "static",
       "storage",
@@ -64,6 +67,7 @@ repo = [
     has_wiki             = true
     visibility           = "public"
     vulnerability_alerts = true
+    overwrite            = true
     topics = [
       "bastion",
       "instance",
@@ -82,6 +86,7 @@ repo = [
     has_wiki             = true
     visibility           = "public"
     vulnerability_alerts = true
+    overwrite            = true
     topics = [
       "appengine",
       "gcp",
@@ -99,6 +104,7 @@ repo = [
     has_wiki             = true
     visibility           = "public"
     vulnerability_alerts = true
+    overwrite            = true
     topics = [
       "cloudfunction",
       "gcp",
@@ -116,6 +122,7 @@ repo = [
     has_wiki             = true
     visibility           = "public"
     vulnerability_alerts = true
+    overwrite            = true
     topics = [
       "sql",
       "gcp",
@@ -133,6 +140,7 @@ repo = [
     has_wiki             = true
     visibility           = "public"
     vulnerability_alerts = true
+    overwrite            = true
     topics = [
       "gcp",
       "module",
@@ -149,6 +157,7 @@ repo = [
     has_wiki             = true
     visibility           = "public"
     vulnerability_alerts = true
+    overwrite            = true
     topics = [
       "gke",
       "gcp",
@@ -166,6 +175,7 @@ repo = [
     has_wiki             = true
     visibility           = "public"
     vulnerability_alerts = true
+    overwrite            = true
     topics = [
       "helm-charts",
       "storage",
@@ -184,6 +194,7 @@ repo = [
     has_wiki             = true
     visibility           = "public"
     vulnerability_alerts = true
+    overwrite            = true
     topics = [
       "helm-charts",
       "storage",
@@ -202,6 +213,7 @@ repo = [
     has_wiki             = true
     visibility           = "public"
     vulnerability_alerts = true
+    overwrite            = true
     topics = [
       "gcp",
       "module",
@@ -218,6 +230,7 @@ repo = [
     has_wiki             = true
     visibility           = "public"
     vulnerability_alerts = true
+    overwrite            = true
     topics = [
       "bucket",
       "state",
@@ -236,6 +249,7 @@ repo = [
     has_wiki             = true
     visibility           = "public"
     vulnerability_alerts = true
+    overwrite            = true
     topics = [
       "helm-charts",
       "repository",

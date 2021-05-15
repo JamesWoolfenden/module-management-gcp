@@ -257,5 +257,22 @@ repo = [
       "module",
       "terraform",
     ]
+  },
+  {
+    name                 = "terraform-gcp-instance"
+    description          = "A helm repository"
+    default_branch       = "master"
+    has_downloads        = true
+    has_issues           = true
+    has_projects         = true
+    has_wiki             = true
+    visibility           = "public"
+    vulnerability_alerts = true
+    overwrite            = true
+    topics = [
+      "gcp",
+      "module",
+      "terraform",
+    ]
   }
 ]

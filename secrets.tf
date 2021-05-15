@@ -22,3 +22,10 @@ resource "github_actions_secret" "GOOGLE_CLOUD_KEYFILE_JSON" {
   secret_name     = "GOOGLE_CLOUD_KEYFILE_JSON"
   plaintext_value = local.credentials
 }
+
+resource "github_actions_secret" "INFRACOST_API_KEY" {
+  count           = length(var.repo)
+  repository      = var.repo[count.index]["name"]
+  secret_name     = "INFRACOST_API_KEY"
+  plaintext_value = var.INFRACOST_API_KEY
+}

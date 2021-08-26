@@ -260,8 +260,8 @@ repo = [
   },
   {
     name                 = "terraform-gcp-instance"
-    description          = "A helm repository"
-    default_branch       = "master"
+    description          = "A simple instance"
+    default_branch       = "main"
     has_downloads        = true
     has_issues           = true
     has_projects         = true
